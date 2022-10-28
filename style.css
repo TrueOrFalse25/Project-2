@@ -1,0 +1,9 @@
+.navbar {
+    background-color: rgb(238, 194, 72);
+    display: flex;
+    justify-content: space-around;
+    font-family:'Courier New', Courier, monospace;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}

@@ -12,12 +12,14 @@
     text-align: center;
     padding-left: 250px;
     padding-right: 250px;
+    background-color: gray;
 }
 
 .info {
     text-align: center;
     padding-left: 250px;
     padding-right: 250px;
+    background-color: red;
 }
 
 .gallery {
@@ -28,6 +30,19 @@
 #big {
     font-size: 50px;
     font-weight: bold;
+    margin-top: 0px;
+}
+
+#desc {
+    margin: 0px;
+}
+
+.footer {
+    background-color: lightblue;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+
 }
 
 @media screen and (max-width: 767px) 

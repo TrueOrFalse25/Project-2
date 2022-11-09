@@ -1,5 +1,5 @@
 .navbar {
-    background-color: rgb(238, 194, 72);
+    background-color: lightblue;
     display: flex;
     justify-content: space-around;
     font-family:'Courier New', Courier, monospace;
@@ -8,17 +8,75 @@
     font-size: 30px;
 }
 
-.wrapper {
-    border: 10px;
-    width: 85%;
-    margin: auto;
+.intro {
     text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
-#h1 {
+.info {
     text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
-#h2 {
+.gallery {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#big {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) 
+{
+    .gallery 
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+
+    img
+    {
+        width: 70%;
+        margin: auto;
+    }
     
 }
+
+@media screen and (min-width: 768px) 
+{
+    .gallery 
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    img
+    {
+        width: 50%;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) 
+{
+    .gallery 
+    {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+    }
+
+    img
+    {
+        width: 100%;
+    }
+}
+
+

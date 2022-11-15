@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Form 📝</title>
 </head>
+
 <body>
     <div class="navbar">
         <div><a href="index.html">Home 💪</a></div>
@@ -21,9 +23,36 @@
         <p id="big">Form 📝</p>
         <p id="desc">Something to fill out</p>
     </div>
-    
+    <!-- modify this form HTML and place wherever you want your form -->
+    <div id="formy" class="info">
+        <form action="https://formspree.io/f/xvoylbwp" method="POST">
+            <label>
+                Your Name: <br>
+                <input type="text" name="name">
+            </label>
+            <br>
+            <label>
+                What sports are you interested in playing, both before and after visiting this site? <br>
+                <input type="checkbox" name="sport1" value="Ball">
+                <label for="vehicle1"> Basketball</label><br>
+                <input type="checkbox" name="sport2" value="Bird">
+                <label for="vehicle2"> Badminton</label><br>
+                <input type="checkbox" name="sport3" value="Run">
+                <label for="vehicle3"> Running</label><br>
+                <input type="checkbox" name="sport4" value="Foot">
+                <label for="vehicle3"> Soccer</label><br>
+            </label>
+            <label>
+                Comments/Advice: <br>
+                <textarea name="message"></textarea>
+            </label>
+            <br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
     <div class="footer">
-        <h3>&copy True Yuen - Web Development 2022</h3>
+        <h5>&copy True Yuen - Web Development 2022</h5>
     </div>
 </body>
+
 </html>

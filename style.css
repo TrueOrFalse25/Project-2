@@ -39,8 +39,8 @@ h2 {
 
 .intro {
     text-align: center;
-    padding-left: 225px;
-    padding-right: 225px;
+    padding-left: 223px;
+    padding-right: 223px;
     background-color: rgb(187, 183, 183);
 }
 
@@ -48,8 +48,8 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    padding-left: 225px;
-    padding-right: 225px;
+    padding-left: 223px;
+    padding-right: 223px;
     background-color: rgb(135, 195, 235);
 }
 
@@ -85,7 +85,7 @@ h5 {
     margin-bottom: 5px;
 }
 
-@media screen and (max-width: 760px) 
+@media screen and (max-width: 765px) 
 {
     .gallery {
         display: grid;

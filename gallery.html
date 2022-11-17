@@ -12,7 +12,7 @@
 
 <body>
     <div class="navbar">
-        <div><a href="index.html">Home 💪</a></div>
+        <div><a href="index.html"><strong>Home 💪</strong></a></div>
         <div><a href="kingcobra.html">Basketball 🏀</a></div>
         <div><a href="blackmamba.html">Badminton 🏸</a></div>
         <div><a href="python.html">Running 🏃💨</a></div>
@@ -20,19 +20,20 @@
         <div><a href="gallery.html">Form 📝</a></div>
     </div>
     <div class="intro">
-        <p id="big">Form 📝</p>
-        <p id="desc">Something to fill out</p>
+        <p id="big">Form 📝 and more 🌟</p>
+        <p id="desc"><strong>Something to fill out and some data</strong></p>
     </div>
     <!-- modify this form HTML and place wherever you want your form -->
     <div id="formy" class="info">
+        <h2>Form</h2>
         <form action="https://formspree.io/f/xvoylbwp" method="POST">
             <label>
-                Your Name: <br>
+                <strong>Your Name: </strong><br>
                 <input type="text" name="name">
             </label>
-            <br>
+            <br><br>
             <label>
-                What sports are you interested in playing, both before and after visiting this site? <br>
+                <strong>Which sports were you interested in playing before visiting this site? </strong><br><br>
                 <input type="checkbox" name="sport1" value="Ball">
                 <label for="vehicle1"> Basketball</label><br>
                 <input type="checkbox" name="sport2" value="Bird">
@@ -42,13 +43,61 @@
                 <input type="checkbox" name="sport4" value="Foot">
                 <label for="vehicle3"> Soccer</label><br>
             </label>
+            <br>
             <label>
-                Comments/Advice: <br>
+                <strong>Which sports are you interested in playing after visiting this site? </strong><br><br>
+                <input type="checkbox" name="sport1" value="Ball">
+                <label for="vehicle1"> Basketball</label><br>
+                <input type="checkbox" name="sport2" value="Bird">
+                <label for="vehicle2"> Badminton</label><br>
+                <input type="checkbox" name="sport3" value="Run">
+                <label for="vehicle3"> Running</label><br>
+                <input type="checkbox" name="sport4" value="Foot">
+                <label for="vehicle3"> Soccer</label><br>
+            </label>
+            <br>
+            <label>
+                <strong>Comments/Advice: </strong><br>
                 <textarea name="message"></textarea>
             </label>
             <br>
             <button type="submit">Send</button>
-        </form>
+        </form><br>
+        <h2>Sports Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name of sport</th>
+                    <th>Number of people that follow</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Basketball</td>
+                    <td>2,500,000,000</td>
+                </tr>
+                <tr>
+                    <td>Badminton</td>
+                    <td>220,000,000</td>
+                </tr>
+                <tr>
+                    <td>Running</td>
+                    <td>620,000,000</td>
+                </tr>
+                <tr>
+                    <td>Soccer</td>
+                    <td>5,500,000,000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr id="foot">
+                    <td>Total</td>
+                    <td>A LOT! Join these people!</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br><br><br>
+
     </div>
     <div class="footer">
         <h5>&copy True Yuen - Web Development 2022</h5>

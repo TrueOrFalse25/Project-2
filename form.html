@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Form 📝</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div><a href="index.html">Home 💪</a></div>
+        <div><a href="basketball.html">Basketball 🏀</a></div>
+        <div><a href="badminton.html">Badminton 🏸</a></div>
+        <div><a href="running.html">Running 🏃💨</a></div>
+        <div><a href="soccer.html">Soccer ⚽</a></div>
+        <div><a href="form.html">Form 📝</a></div>
+    </div>
+    <div class="intro">
+        <p id="big">Form 📝 and more 🌟</p>
+        <p id="desc"><strong>Something to fill out and some data</strong></p>
+    </div>
+    <!-- modify this form HTML and place wherever you want your form -->
+    <div id="formy" class="info">
+        <h2>Form</h2>
+        <form action="https://formspree.io/f/xvoylbwp" method="POST">
+            <label>
+                <strong>Your Name: </strong><br>
+                <input type="text" name="name">
+            </label>
+            <br><br>
+            <label>
+                <strong>Which sports were you interested in playing before visiting this site? </strong><br><br>
+                <input type="checkbox" name="sport1" value="Ball">
+                <label for="sport1"> Basketball</label><br>
+                <input type="checkbox" name="sport2" value="Bird">
+                <label for="sport2"> Badminton</label><br>
+                <input type="checkbox" name="sport3" value="Run">
+                <label for="sport3"> Running</label><br>
+                <input type="checkbox" name="sport4" value="Foot">
+                <label for="sport4"> Soccer</label><br>
+            </label>
+            <br>
+            <label>
+                <strong>Which sports are you interested in playing after visiting this site? </strong><br><br>
+                <input type="checkbox" name="sport1" value="Ball">
+                <label for="sport1"> Basketball</label><br>
+                <input type="checkbox" name="sport2" value="Bird">
+                <label for="sport2"> Badminton</label><br>
+                <input type="checkbox" name="sport3" value="Run">
+                <label for="sport3"> Running</label><br>
+                <input type="checkbox" name="sport4" value="Foot">
+                <label for="sport4"> Soccer</label><br>
+            </label>
+            <br>
+            <label>
+                <strong>Comments/Advice: </strong><br>
+                <textarea name="message"></textarea>
+            </label>
+            <br>
+            <button type="submit">Send</button>
+        </form><br>
+        <h2>Sports Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name of sport</th>
+                    <th>Number of people that follow</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Basketball</td>
+                    <td>2,500,000,000</td>
+                </tr>
+                <tr>
+                    <td>Badminton</td>
+                    <td>220,000,000</td>
+                </tr>
+                <tr>
+                    <td>Running</td>
+                    <td>620,000,000</td>
+                </tr>
+                <tr>
+                    <td>Soccer</td>
+                    <td>5,500,000,000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr id="foot">
+                    <td>Total</td>
+                    <td>A LOT! Join these people!</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br><br>
+    </div>
+    <div class="gallery"></div>
+    <div class="footer">
+        <h5>&copy True Yuen - Web Development 2022</h5>
+    </div>
+</body>
+</html>
+<!-- I created my website independently, but I did have help from my classmates around me like Raymond, Crystal, and Daniel. At first, I was going to make a website informing people about snakes
+and how humans could help them, but I realized that I didn't know enough about them so I decided to inform people about how fun sports are to encourage them to play them. I first got my layout
+in order, sorting it by the navbar, the heading, the four aspects of the sport I'm elaborating on, and the footer. Once I got that on every HTML page, I styled the CSS to make sure the website is aesthetically pleasing and 
+that everything is consistent throughout. This was all the while making sure I fulfilled all of the requirements. -->

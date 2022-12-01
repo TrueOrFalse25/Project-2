@@ -39,8 +39,8 @@ h2 {
 
 .intro {
     text-align: center;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 223px;
+    padding-right: 223px;
     background-color: rgb(187, 183, 183);
 }
 
@@ -48,9 +48,9 @@ h2 {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    padding-left: 250px;
-    padding-right: 250px;
-    background-color: rgb(88, 169, 223);
+    padding-left: 350px;
+    padding-right: 350px;
+    background-color: rgb(135, 195, 235);
 }
 
 .gallery {
@@ -66,6 +66,7 @@ h2 {
     font-weight: bold;
     margin-top: 0px;
     padding-top: 20px;
+    text-align: center;
 }
 
 .footer {
@@ -84,34 +85,48 @@ h5 {
     margin-bottom: 5px;
 }
 
-@media screen and (max-width: 767px) 
+@media screen and (max-width: 765px) 
 {
-    .gallery 
-    {
+    .gallery {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 10px;
     }
 
-    img
-    {
+    img {
         width: 70%;
         margin: auto;
     }
     
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        row-gap: 0.5rem;
+        padding: 1rem;
+    }
+
+    .intro {
+        padding: 0px;
+        text-align: center;
+    }
+    
+    .info {
+        padding: 0px;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 768px) 
 {
-    .gallery 
-    {
+    .gallery {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 10px;
     }
 
-    img
-    {
+    img {
         width: 100%;
     }
 }
@@ -119,11 +134,12 @@ h5 {
 table
 {
     border-spacing: 0px;
+    border: solid 1px white;
 }
 
 th, tr
 {
-    border-bottom: 1px solid #c4dcf3;
+    border-bottom: 1px solid rgb(196, 220, 243);
 }
 
 td
@@ -133,24 +149,19 @@ td
 
 tr:nth-child(odd)
 {
-    background-color: #D6EEEE;
-}
-
-tr:nth-child(even)
-{
-    background-color: gray;
+    background-color: white;
 }
 
 tr th
 {
     color: white;
     padding: 5px;
-    background-color: #427fef;
+    background-color: blue;
 }
 
 #foot
 { 
     font-weight: bold;
     color: white;
-    background-color: #427fef;
+    background-color: blue;
 }
